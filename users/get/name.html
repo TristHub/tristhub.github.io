@@ -1,0 +1,11 @@
+<html>
+  <script>
+    username = prompt('What\'s the username of the user?')
+    function httpGet(theUrl)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://api.scratch.mit.edu/users/" + username, false ); // false for synchronous request
+    xmlHttp.send( null );
+    return xmlHttp.responseText;
+}
+  </script>
