@@ -1,0 +1,3297 @@
+<html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     
+    <meta name="google-site-verification" content="m_3TAXDreGTFyoYnEmU9mcKB4Xtw5mw6yRkuJtXRKxM">
+    <title>Windy-School on Scratch</title>
+    
+
+<meta name="description" content="Windy-School on Scratch">
+
+    <link rel="stylesheet" href="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/vendor/redmond/jquery.ui.all.css">
+    
+        <link href="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/css/main.css" rel="stylesheet" type="text/css">
+   
+   <link rel="stylesheet" href="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//css/handheld.css" media="handheld, only screen and (max-device-width:480px)">
+
+    
+<!-- templates/profiles/profile_detail.html block css -->
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//css/pages/profile.css" rel="stylesheet">
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//css/pages/scratcher_promotion.css" rel="stylesheet">
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//vendor/redmond/jquery.ui.all.css" rel="stylesheet">
+<link href="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//css/modules/modal.css" rel="stylesheet">
+<!-- end block css -->
+
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/js/lib/underscore-min.js"></script>
+    
+    <script>
+      window.console||(window.console={log:$.noop,error:$.noop,debug:$.noop}); // ensure console fails gracefully when missing
+      // define _gaq here to log errors with GA. ga.js script gets loaded furthe down
+      var sessionCookieName = 'scratchsessionsid';
+      var _gaq = window._gaq || [];
+      _gaq.push(['_setAccount', 'UA-30688952-1']);
+      _gaq.push(['_setSampleRate', '10']);
+      _gaq.push(['_trackPageview']);
+      
+      
+      
+      _gaq.push(['_setCustomVar', 2, 'status', 'logged_in', 2]);
+      
+      
+
+      
+    </script>
+    <script type="text/javascript">
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        function setCookie(name, value, days) {
+            var expires;
+
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            } else {
+                expires = "";
+            }
+            document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
+        }
+    </script>
+    
+  <script>
+    
+
+var Scratch = Scratch || {};
+Scratch.INIT_DATA = Scratch.INIT_DATA || {};
+
+
+
+Scratch.INIT_DATA.ADMIN = false;
+Scratch.INIT_DATA.LOGGED_IN_USER = {
+  
+  model: {
+    username: 'Windy-School',
+    username_truncated: 'Windy-School',
+    has_outstanding_email_confirmation: 'false',
+    
+    id: 64566166,
+    profile_url: '/users/Windy-School/',
+    thumbnail_url: '//uploads.scratch.mit.edu/users/avatars/64566166.png'
+     
+  },
+  
+  options: {
+    
+      authenticated: true
+    
+    
+  
+  ,myProfile: true
+  
+
+  
+
+
+  }
+};
+Scratch.INIT_DATA.comment_posting = true;
+
+Scratch.INIT_DATA.BROWSERS_SUPPORTED = {
+
+  chrome: 35,
+  firefox: 31,
+  msie: 8,
+  safari: 7
+};
+
+Scratch.INIT_DATA.TEMPLATE_CUES = {
+
+  unsupported_browser: true,
+  welcome: true,
+  confirmed_email: false
+};
+
+
+
+
+Scratch.INIT_DATA.PROFILE = {
+  model: {
+    id: 'Windy-School',
+    userId: 64566166,
+    username: 'Windy-School',
+    thumbnail_url: '//uploads.scratch.mit.edu/users/avatars/64566166.png',
+    comments_allowed: false
+  },
+  related_counts: {
+  }
+   
+  ,featuredProject: {
+    title: 'Nintendo Switch Simulator(w/ SwitchBru) v1.1',
+    id: 469227503, 
+    creator: 'Windy-School',
+    isPublished: true,
+  },
+  featuredProjectLabel: "Featured Project"
+ 
+}  
+Scratch.INIT_DATA.ADMIN_PANEL = {
+  'adminURL': '/users/Windy-School/admin/'
+}
+
+
+
+
+Scratch.INIT_DATA.IS_IP_BANNED = false;
+
+Scratch.INIT_DATA.GLOBAL_URLS = {
+  'media_url': '//uploads.scratch.mit.edu/',
+  'static_url': '//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/',
+  'static_path': '/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/'
+}
+
+Scratch.INIT_DATA.IS_SOCIAL = true;
+
+  </script>
+
+
+    <meta property="og:type" content="website">
+    
+    <meta property="og:description" content="Make games, stories and interactive art with Scratch. (scratch.mit.edu)">
+    
+
+    
+    <meta property="og:title" content="Scratch - Imagine, Program, Share">
+    <meta property="og:url" content="https://scratch.mit.edu/users/Windy-School/">
+    
+
+  </head>
+
+  <body class="">
+  <!--[if lte IE 8]>
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch supports Internet Explorer 9+. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, or <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">read about common workarounds</a>.</span>
+    </div>
+  </div>
+  <![endif]-->
+    <div id="pagewrapper">
+      
+      
+      <div id="topnav">
+      <div class="innerwrap">
+        <div class="container">
+          <a href="/" class="logo"><span class="scratch"></span></a>
+          <ul class="site-nav">
+            <li><a id="project-create" href="/projects/master">Create</a></li><li><a href="/explore/projects/all">Explore</a></li><li><a href="/ideas">Ideas</a></li><li class="last"><a href="/about">About</a></li>
+          </ul>
+          
+          <form class="search" action="/search/projects" method="get">
+            <input type="submit" class="glass" value="">
+            
+	          <input id="search-input" type="text" placeholder="Search" name="q">
+          </form>
+          
+          
+          <ul class="account-nav logged-in"><li class="messages"><a title="messages - updates and notices" href="/messages" class="messages-icon"><span class="notificationsCount none" style="top: -36px;">0</span></a></li><li class="my-stuff"><a title="my stuff - manage projects and studios" href="/mystuff/" class="mystuff-icon"></a></li><li class="logged-in-user dropdown"><span class="user-name dropdown-toggle" data-toggle="dropdown"><img class="user-icon" src="https://en.scratch-wiki.info/w/images/Default_Scratch_Avatar.png" width="24" height="24">Guest<span class="caret"></span></span><div class="dropdown-menu blue"><ul class="user-nav"><li><a href="/users/Windy-School/">Profile</a></li><li><a href="/mystuff/">My Stuff</a></li><li><a href="/classes/322366/">My Class</a></li><li><a href="/accounts/settings/">Account settings</a></li><li id="logout" class="logout divider"><form method="post" action="/accounts/logout/"><input type="hidden" name="csrfmiddlewaretoken" value="TwRbG3T5zThqyLfLN6fitALGqzD28iBP"><input type="submit" value="Sign out"></form></li></ul></div></li></ul>
+          
+          <script type="text/template" id="template-account-nav-logged-out">
+          <ul class="account-nav" >
+              <li class="join-scratch"><a href="/join">Join Scratch</a></li><li id="login-dropdown" class="sign-in dropdown"><span data-toggle="dropdown" class="dropdown-toggle"><span>Sign in</span></span><div class="popover bottom dropdown-menu"><div class="arrow"></div><div class="popover-content" ><form method="post" id="login" action="#"><label for="username">Username</label><input type="text" id="login_dropdown_username" name="username" maxlength="30" class="wide username" /><label for="password" class="password">Password</label><input type="password" name="password" class="wide password" /><div class="ajax-loader" style="display:none; float: left;"></div><button type="submit">Sign in</button><span class="forgot-password"><a href="/accounts/password_reset/">Need help?</a></span><div class="error"></div></form></div></div></li><li data-control="modal-login" class="sign-in mobile"><span>Sign in</span></li>
+          </ul>
+          </script>
+          <script type="text/template" id="template-account-nav-logged-in">
+          <ul class="account-nav logged-in"><li class="messages"><a title="messages - updates and notices" href="/messages" class="messages-icon"><span class="notificationsCount none">0</span></a></li><li class="my-stuff"><a title="my stuff - manage projects and studios" href="/mystuff/" class="mystuff-icon"></a></li><li class="logged-in-user dropdown"><span class="user-name dropdown-toggle" data-toggle="dropdown"><img class="user-icon" src="<%- LOGGED_IN_USER.model.thumbnail_url %>" width="24" height="24"><%- LOGGED_IN_USER.model.username_truncated %><span class="caret"></span></span><div class="dropdown-menu blue" ><ul class="user-nav"><li><a href="<%- LOGGED_IN_USER.model.profile_url %>">Profile</a></li><li><a href="/mystuff/">My Stuff</a></li><% if (LOGGED_IN_USER.model.is_educator){ %><li><a href="/educators/classes/">My Classes</a></li><% } %><% if (LOGGED_IN_USER.model.is_student){ %><li><a href="/classes/<%- LOGGED_IN_USER.model.classroom_id %>/">My Class</a></li><% } %><li><a href="/accounts/settings/">Account settings</a></li><li id="logout" class="logout divider"><form method="post" action="/accounts/logout/"><input type='hidden' name='csrfmiddlewaretoken' value='TwRbG3T5zThqyLfLN6fitALGqzD28iBP' /><input type="submit" value="Sign out"></form></li></ul></div></li></ul>
+          </script>
+          <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/js/account-nav.js"></script>
+        </div>
+        <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+      </div><!-- innerwrap -->
+      </div>
+        
+
+      <div class="confirm-email banner" data-cue="confirmed_email" style="display:none;">
+        <div class="container">
+          <span><a id="confirm-email-popup" href="#">Confirm your email</a> to enable sharing. <a href="/info/faq/#accounts">Having trouble?</a></span>
+          <div class="close">x</div>
+        </div>
+      </div>
+
+      <div class="email-outage banner" style="display:none; background-color:#FF661A;">
+        <div class="container">
+          <span>We are experiencing a disruption with email delivery. If you are not receiving emails from us, please try after 8am EST.</span>
+          <div class="close">x</div>
+        </div>
+      </div>
+
+        
+        <div class="container" id="content">
+        <div id="alert-view"></div>
+        
+
+
+  
+
+<!-- templates/profiles/profile_detail.html block main-content -->
+<div class="box" id="profile-data">
+  <div class="box-head">
+    <form id="profile-avatar" class="portrait">
+      <div class="avatar">
+      <a href="/users/Windy-School/">
+        <img src="//cdn2.scratch.mit.edu/get_image/user/64566166_60x60.png" width="55" height="55">
+        <div class="loading-img s48"></div>
+      </a>
+      
+        
+        <div data-control="edit">Change
+          <input class="hidden" type="file" accept="image/*" name="file">
+        </div>
+        
+      
+    </div>
+    </form>
+    <div class="header-text">
+      <h2>Windy-School</h2>
+      <p class="profile-details">
+      
+      
+      
+      <span class="group">
+        Scratcher
+         
+        
+      </span> 
+      Joined <span title="2020-09-30">5&nbsp;months, 3&nbsp;weeks</span> ago
+      <span class="location">Canada</span>
+      </p>
+    </div>
+    
+  </div>
+  <div class="box-content" id="profile-box">
+    <div class="action-bar">
+      <div id="alert-view" class="">
+      </div>
+    </div>
+    <div class="inner clearfix">
+      <div class="user-content">
+        <div id="user-details" class="about">
+          <div class="loading-img s48"></div>
+          <h3>About me</h3>
+          
+            
+              <div id="bio" class="read" data-username="Windy-School">
+              
+                
+                <form>
+                  <textarea name="bio">Main Account: @Windy-Animations
+~~~~~~~~~~~~~
+Hi, i'm Tristan!
+Grade 6
+11yrs
+~~~~~~~~~~~~~
+  Creator of: 
+~~~~~~~~~~~~~
+
+- Swat Sim Games
+
+- FIFA Tutorials
+
+- HexagonOS</textarea>
+                </form>
+              </div>
+            
+          
+
+          <h3>What I'm working on</h3>
+          
+          
+          <div id="status" class="read" data-username="Windy-School">
+          
+            
+            <form>
+              <textarea name="status">HexagonOS
+
+Laggy
+
+Cyan be like(series)</textarea>
+            </form>
+          </div>
+          
+          
+        </div>
+
+        
+            <div class="player">
+                <h3 class="featured-project-heading">Featured Project</h3>
+                <div class="stage" style="width: 282px;">
+                    <a href="/projects/469227503/" id="featured-project">
+                        <img src="//cdn2.scratch.mit.edu/get_image/project/469227503_282x210.png" width="282" height="210" alt="Featured project">
+                        
+                            <div data-control="edit">Change featured project</div>
+                        
+                    </a>
+                </div>
+                <span class="title">
+                    <a class="project-name" href="/projects/469227503/">Nintendo Switch Simulator(w/ SwitchBru) v1.1</a>
+                </span>
+
+            </div>
+        
+      </div>
+        <div class="doing">
+            <h3>What I've been doing</h3>
+          <div id="activity-feed"><!-- templates/notifications/includes/user-feed.html -->
+
+
+
+
+
+
+<ul class="activity-stream">
+  
+  
+  
+  
+  
+  
+  
+  
+  <li>
+    <span class="icon-xs black project"></span>
+    <div>
+  	  <span class="actor">Windy-School</span> 
+      remixed
+      <a href="/projects/486436977/">Friday Night Funkin' Modded AGAIN </a> as 
+  	  <a href="/projects/502940071/">Friday Night Funkin' Modded </a>
+      <span data-tag="time" class="time">6&nbsp;days, 16&nbsp;hours ago</span>
+    </div>
+  </li>
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <li>
+    <span class="icon-xs black project"></span>
+    <div>
+      <span class="actor">Windy-School</span> 
+      shared the project 
+      <a href="/projects/501919034/" data-tag="object">Among Us</a>
+      <span data-tag="time" class="time">1&nbsp;week, 1&nbsp;day ago</span>
+    </div>
+  </li>
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  <li>
+   <span class="icon-xs black favorite"></span>
+   <div>
+     <span class="actor">Windy-School</span> 
+     favorited
+     <a href="/projects/499093392/">Mouth Movement test</a>
+     <span data-tag="time" class="time">1&nbsp;week, 6&nbsp;days ago</span>
+   </div>
+  </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li>
+    <span class="icon-xs black project"></span>
+    <div>
+  	  <span class="actor">Windy-School</span> 
+      remixed
+      <a href="/projects/418882572/">Mouth Movement test</a> as 
+  	  <a href="/projects/499093392/">Mouth Movement test</a>
+      <span data-tag="time" class="time">2&nbsp;weeks ago</span>
+    </div>
+  </li>
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <li>
+    <span class="icon-xs black project"></span>
+    <div>
+      <span class="actor">Windy-School</span> 
+      shared the project 
+      <a href="/projects/499027921/" data-tag="object">SCRIPT FOR NEW ANIMATION</a>
+      <span data-tag="time" class="time">2&nbsp;weeks ago</span>
+    </div>
+  </li>
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <li>
+    <span class="icon-xs black project"></span>
+    <div>
+  	  <span class="actor">Windy-School</span> 
+      remixed
+      <a href="/projects/406232538/">Four is a murderer</a> as 
+  	  <a href="/projects/498509161/">Four is a murderer</a>
+      <span data-tag="time" class="time">2&nbsp;weeks, 1&nbsp;day ago</span>
+    </div>
+  </li>
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+</ul>
+</div>
+        </div>
+    </div>
+  </div>
+  <div class="footer">
+  
+  </div>
+</div>
+<div class="profile-box-footer-module" id="profile-box-footer">
+</div>
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>Shared Projects (54)</h4>
+    <a href="/users/Windy-School/projects/" data-control="view-all">View all</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="shared" style="height: 158.5px;">
+    
+    <div class="viewport" style="overflow: hidden; height: 148.5px;">
+      <ul class="scroll-content" style="width: 3489px; overflow: hidden; left: 0px;">
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/502940071/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/502940071_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/502940071_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/502940071/">Friday Night Funkin' Modded </a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/501919034/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/501919034_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/501919034_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/501919034/">Among Us</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/499093392/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/499093392_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/499093392_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/499093392/">Mouth Movement test</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/499027921/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/499027921_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/499027921_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/499027921/">SCRIPT FOR NEW ANIMATION</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/498509161/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/498509161_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/498509161_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/498509161/">Four is a murderer</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/498487080/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/498487080_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/498487080_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/498487080/">mondays...</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/471738141/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/471738141_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/471738141_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/471738141/">[WIP] ScratchBit - A 8-Bit Fighter Game</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/469255416/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/469255416_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/469255416_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/469255416/">:(</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/469227503/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/469227503_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/469227503_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/469227503/">Nintendo Switch Simulator(w/ SwitchBru) v1.1</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/468648644/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/468648644_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/468648644_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/468648644/">Among Us Download Task fixed</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/466370913/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/466370913_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/466370913_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/466370913/">Scratch CD THING</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/466367356/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/466367356_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/466367356_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/466367356/">Object Cringe Elimination Time REMASTERED</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/465896490/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/465896490_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/465896490_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/465896490/">Car</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/462245901/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/462245901_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/462245901_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/462245901/">Battle four yes again</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/460912876/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/460912876_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/460912876_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/460912876/">Cursed Flappy Parrot</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/459786087/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/459786087_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/459786087_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/459786087/">AdvertiseBot - Advertise your dis***d bot</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/454977497/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/454977497_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/454977497_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/454977497/">MathMan: Animated</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/453825010/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/453825010_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/453825010_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/453825010/">Modded Hill Climb Racing v1.0 remix</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/453812834/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/453812834_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/453812834_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/453812834/">e</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/451830739/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/451830739_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/451830739_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/451830739/">Among us : kamehameha!!</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Windy-School/">Windy-School</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+    
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 207.995px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>Favorite Projects</h4>
+    <a href="/users/Windy-School/favorites/" data-control="view-all">View all</a>
+  </div>
+  <div class="box-content slider-carousel horizontal" id="favorites">
+    
+    <div class="viewport">
+      <ul class="scroll-content" style="width: 673px;">
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/459488396/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/459488396_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/459488396_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/459488396/">Star Wars:Death Star III</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/GeoHoundz/">GeoHoundz</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/466901492/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/466901492_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/466901492_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/466901492/">Let's get this to more loves and favorites than views</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/mystuffawesome2/">mystuffawesome2</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/410210309/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/410210309_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/410210309_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/410210309/">Avataro Ember (Unfinished)</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/mystuffawesome2/">mystuffawesome2</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+        
+
+
+
+
+
+
+
+
+
+
+<!-- templates/carousel/project-thumb.html -->
+<li class="project thumb item">
+  <a href="/projects/459791694/">
+    <img class="lazy image" data-original="//cdn2.scratch.mit.edu/get_image/project/459791694_144x108.png" width="144" height="108" src="//cdn2.scratch.mit.edu/get_image/project/459791694_144x108.png" style="display: block;">
+  </a>
+  <span class="title">
+    <a href="/projects/459791694/">Flappy Parrot</a>
+  </span>
+  <span class="owner">
+      
+        
+            by <a href="/users/Breetelitify/">Breetelitify</a>
+        
+      
+  </span>
+  
+</li>
+<!-- end templates/carousel/project-thumb.html -->
+
+
+
+
+      
+      </ul>
+    </div>
+    
+
+  </div>
+</div>
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>Studios I'm Following</h4>
+    <a href="/users/Windy-School/studios_following/" data-control="view-all">View all</a>
+  </div>
+  <div class="box-content slider-carousel horizontal" id="featured">
+    <div class="viewport">
+      <ul class="scroll-content" style="width: 420px;">
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27795752/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/gallery/default_170x100.png" width="170" height="100" src="//cdn2.scratch.mit.edu/get_image/gallery/default_170x100.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27795752/">Star wars, the studio
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27778551/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/gallery/27778551_170x100.png" width="170" height="100" src="//cdn2.scratch.mit.edu/get_image/gallery/27778551_170x100.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27778551/">CrimeLordz Studio
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+      <h4>Studios I Curate</h4>
+    <a href="/users/Windy-School/studios/" data-control="view-all">View all</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="featured" style="height: 148.5px;">
+    <div class="viewport" style="overflow: hidden; height: 138.5px;">
+      <ul class="scroll-content" style="width: 1050px; overflow: hidden; left: 0px;">
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28527432/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/gallery/28527432_170x100.png" width="170" height="100" src="//cdn2.scratch.mit.edu/get_image/gallery/28527432_170x100.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28527432/"> Fʟɪᴄᴋᴇʀ - Aɴɪᴍᴀᴛɪᴄ Sᴇʀɪᴇs
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28485821/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/gallery/28485821_170x100.png" width="170" height="100" src="//cdn2.scratch.mit.edu/get_image/gallery/28485821_170x100.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28485821/">Among Us roleplay
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/28066986/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/gallery/28066986_170x100.png" width="170" height="100" src="//cdn2.scratch.mit.edu/get_image/gallery/28066986_170x100.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/28066986/">A better scratch society      by MadEnder
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27795752/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/gallery/default_170x100.png" width="170" height="100" src="//cdn2.scratch.mit.edu/get_image/gallery/default_170x100.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27795752/">Star wars, the studio
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+        
+
+
+
+<!-- templates/carousel/gallery-thumb.html -->
+<li class="gallery thumb item">
+  <a href="/studios/27778551/" class="image">
+    <span class="image">
+      <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/gallery/27778551_170x100.png" width="170" height="100" src="//cdn2.scratch.mit.edu/get_image/gallery/27778551_170x100.png" style="display: block;">
+    </span>
+    <span class="stats">
+      <span class="icon-sm studio white"></span>
+    </span>
+  </a>
+  <span class="title">
+    <a href="/studios/27778551/">CrimeLordz Studio
+    </a>
+  </span>
+</li>
+<!-- end templates/carousel/gallery-thumb.html -->
+
+
+      
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 691.337px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+    <h4>Following</h4>
+    <a href="/users/Windy-School/following/" data-control="view-all">View all</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="featured" style="height: 99.5px;">
+    
+    <div class="viewport" style="overflow: hidden; height: 89.5px;">
+      <ul class="scroll-content" style="width: 1909px; overflow: hidden; left: 0px;">
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/boiyasans/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/boiyasans/">boiyasans
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Ihavedisney/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/62470643_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/62470643_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Ihavedisney/">Ihavedisney
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/-NeverGonnaGiveYouUp/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/62467963_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/62467963_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/-NeverGonnaGiveYouUp/">-NeverGonnaGiveYouUp
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Anonymous674/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Anonymous674/">Anonymous674
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/MailyMan/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/MailyMan/">MailyMan
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/cute-cat1234/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/cute-cat1234/">cute-cat1234
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/kingk0ng111/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/kingk0ng111/">kingk0ng111
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/9500508888888/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/9500508888888/">9500508888888
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/artistic987/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/artistic987/">artistic987
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/poutine36/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/poutine36/">poutine36
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/95005/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/95005/">95005
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Detective_Pikachu39/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Detective_Pikachu39/">Detective_Pikachu39
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/later123/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/later123/">later123
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/MRfrost6782/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/65226413_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/65226413_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/MRfrost6782/">MRfrost6782
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/12344mari/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/12344mari/">12344mari
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/draclet/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/draclet/">draclet
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/098765432154321/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/40039226_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/40039226_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/098765432154321/">098765432154321
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/unicornsMaris/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/unicornsMaris/">unicornsMaris
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/4kstunna/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/4kstunna/">4kstunna
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/779995/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/779995/">779995
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+    
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 380.054px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+
+
+
+<div class="box slider-carousel-container prevent-select">
+  <div class="box-head">
+    <h4>Followers</h4>
+    <a href="/users/Windy-School/followers/" data-control="view-all">View all</a>
+  </div>
+  <div class="box-content slider-carousel horizontal sliderCarousel" id="featured" style="height: 99.5px;">
+    <div class="viewport" style="overflow: hidden; height: 89.5px;">
+      <ul class="scroll-content" style="width: 1909px; overflow: hidden; left: 0px;">
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/xMysticalCoder/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/65677385_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/65677385_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/xMysticalCoder/">xMysticalCoder
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/mystuffawesome2/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/49368110_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/49368110_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/mystuffawesome2/">mystuffawesome2
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/boiyasans/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/boiyasans/">boiyasans
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Anonymous674/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Anonymous674/">Anonymous674
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/cute-cat1234/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/cute-cat1234/">cute-cat1234
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/kingk0ng111/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/kingk0ng111/">kingk0ng111
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/9500508888888/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/9500508888888/">9500508888888
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/artistic987/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/artistic987/">artistic987
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/poutine36/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/poutine36/">poutine36
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/95005/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/95005/">95005
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Detective_Pikachu39/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Detective_Pikachu39/">Detective_Pikachu39
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/later123/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/later123/">later123
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/MRfrost6782/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/65226413_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/65226413_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/MRfrost6782/">MRfrost6782
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/12344mari/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/12344mari/">12344mari
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/draclet/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/draclet/">draclet
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/Windy-Animations/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/64106375_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/64106375_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/Windy-Animations/">Windy-Animations
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/unicornsMaris/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/unicornsMaris/">unicornsMaris
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/4kstunna/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/4kstunna/">4kstunna
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/779995/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/779995/">779995
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+          <!-- templates/carousel/user-thumb.html -->
+
+
+
+
+
+
+
+    <li class="user thumb item">
+    <a href="/users/99999883/">
+        <img class="lazy" data-original="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" width="60" height="60" src="//cdn2.scratch.mit.edu/get_image/user/default_60x60.png" style="display: block;">
+    </a>
+    <span class="title">
+        <a href="/users/99999883/">99999883
+        </a>
+    </span>
+    </li>
+
+<!-- end templates/carousel/user-thumb.html -->
+
+
+
+        
+      </ul>
+    </div><a class="slider-carousel-control left arrow-left off" href="#">‹</a><a class="slider-carousel-control right arrow-right on" href="#">›</a>
+  <div class="scrollbar" style="width: 852px;"><div class="track" style="width: 852px;"><div class="handle" style="left: 0px; width: 380.054px;"><div class="end"></div></div></div></div></div>
+</div>
+
+
+
+<div class="box">
+  <div class="box-head">
+    <h4>Comments</h4>
+  </div>
+  <div class="box-content">
+    
+    
+
+
+
+<div id="comments">
+  
+  
+    <div id="comments-enabled-box" class="action-bar white scroll">
+        <input type="checkbox" name="comments-enabled" id="comments-enabled" checked="checked">
+        <label for="comments-enabled"> Turn off commenting</label>
+    </div>
+  
+  
+  <div id="comment-form">
+    
+        <img class="avatar" src="//cdn2.scratch.mit.edu/get_image/user/64566166_60x60.png" width="45" height="45">
+        
+        <div class="template-feature-off comments-off">
+            Sorry, comment posting has been turned off for this user profile.
+        </div>
+        
+    
+    <div class="clearfix"></div>
+  </div>
+  <div>
+    <ul class="comments" data-content="comments">
+      
+    
+<!-- templates/comments/list.html -->
+
+
+    <li class="top-level-reply">
+        
+
+
+
+
+
+
+
+
+
+
+<div id="comments-99146462" class="comment " data-comment-id="99146462">
+  <div class="actions-wrap">
+
+  
+    <span data-control="delete" class="actions report">Delete</span>
+  
+
+
+  <span data-control="report" class="actions report">
+  
+    Report
+  </span>
+
+</div>
+  <a href="/users/SapphireCOTI" id="comment-user" data-comment-user="SapphireCOTI"><img class="avatar" src="//cdn2.scratch.mit.edu/get_image/user/52334461_60x60.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/SapphireCOTI">SapphireCOTI</a>
+    </div>
+    <div class="content">
+      
+      
+        What was your previous account?
+      
+    </div>
+    <div>
+      <span class="time" title="October 20, 2020">5 months ago</span>
+      
+        
+        <a class="reply" style="display: none;" data-comment-id="99146462" data-parent-thread="99146462" data-commentee-id="52334461" data-control="reply-to">
+            <span>Reply</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+        
+            <ul class="replies" data-thread="99146462">
+                
+                    <li class="reply last">
+                        
+
+
+
+
+
+
+
+
+
+
+<div id="comments-99148192" class="comment " data-comment-id="99148192">
+  <div class="actions-wrap">
+
+  
+    <span data-control="delete" class="actions report">Delete</span>
+  
+
+
+</div>
+  <a href="/users/Windy-School" id="comment-user" data-comment-user="Windy-School"><img class="avatar" src="//cdn2.scratch.mit.edu/get_image/user/64566166_60x60.png" width="45" height="45"></a>
+  <div class="info">
+    <div class="name">
+      <a href="/users/Windy-School">Windy-School</a>
+    </div>
+    <div class="content">
+      
+       <a href="/users/SapphireCOTI">@SapphireCOTI</a>
+      
+      
+        This is my school account. my main is  <a href="/users/Windy-Animations">@Windy-Animations</a>, and my previous one was  <a href="/users/abcdefghijklmnopqr20">@abcdefghijklmnopqr20</a>.
+      
+    </div>
+    <div>
+      <span class="time" title="October 20, 2020">5 months ago</span>
+      
+        
+        <a class="reply" style="display: none;" data-comment-id="99148192" data-parent-thread="99146462" data-commentee-id="64566166" data-control="reply-to">
+            <span>Reply</span>
+        </a>
+        
+      
+    </div>
+    <div data-content="reply-form"></div>
+  </div>
+</div>
+
+
+
+
+                    </li>
+                
+            </ul>
+            
+        
+    </li>
+
+
+<!-- end templates/comments/list.html -->
+</ul>
+  </div>
+</div>
+
+    
+  </div>
+</div>
+<div id="scratcher-promotion-modal" class="modal hide fade" style="display: none;"></div>
+<!-- end block main-content -->
+
+
+        </div>
+
+
+        
+        
+    </div>
+    <div id="footer">
+      <div class="container">
+        <style>
+          #footer ul.footer-col li {
+            list-style-type:none;
+            display: inline-block;
+            width: 184px;
+            text-align: left;
+            vertical-align: top;
+          }
+
+          #footer ul.footer-col li h4 {
+            font-weight: bold;
+            font-size: 14px;
+            color: #666;
+          }
+
+        </style>
+        <ul class="clearfix footer-col">
+          <li>
+            <h4>About</h4>
+            <ul>
+              <li><a href="/about/">About Scratch</a></li>
+              <li><a href="/parents/">For Parents</a></li>
+              <li><a href="/educators/">For Educators</a></li>
+              <li><a href="/developers">For Developers</a></li>
+              <li><a href="/info/credits/">Our Team</a></li>
+              <li><a href="https://www.scratchfoundation.org/supporters">Donors</a></li>
+              <li><a href="/jobs/">Jobs</a></li>
+              <li><a href="https://secure.donationpay.org/scratchfoundation/">Donate</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Community</h4>
+            <ul>
+              <li><a href="/community_guidelines/">Community Guidelines</a></li>
+              <li><a href="/discuss/">Discussion Forums</a></li>
+              <li><a href="http://wiki.scratch.mit.edu/">Scratch Wiki</a></li>
+              <li><a href="/statistics/">Statistics</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="/ideas">Ideas</a></li>
+              <li><a href="/info/faq/">FAQ</a></li>
+              <li><a href="/download">Download</a></li>
+              <li><a href="/contact-us/">Contact Us</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="/terms_of_use/">Terms of Use</a></li>
+              <li><a href="/privacy_policy/">Privacy Policy</a></li>
+              <li><a href="/DMCA/">DMCA</a></li>
+            </ul>
+          </li>
+          <li>
+            <h4>Scratch Family</h4>
+            <ul>
+              <li><a href="http://scratched.gse.harvard.edu/">ScratchEd</a></li>
+              <li><a href="http://www.scratchjr.org/">ScratchJr</a></li>
+              <li><a href="http://day.scratch.mit.edu/">Scratch Day</a></li>
+              <li><a href="/conference/">Scratch Conference</a></li>
+              <li><a href="http://www.scratchfoundation.org/">Scratch Foundation</a></li>
+              <li><a href="/store">Scratch Store</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="clearfix" id="footer-menu">
+          <li>
+            <form id="lang-dropdown" method="post" action="/i18n/setlang/">
+              <select id="language-selection" name="language">
+              
+                <option value="ab">Аҧсшәа</option>
+              
+                <option value="af">Afrikaans</option>
+              
+                <option value="ar">العربية</option>
+              
+                <option value="am">አማርኛ</option>
+              
+                <option value="az">Azeri</option>
+              
+                <option value="id">Bahasa Indonesia</option>
+              
+                <option value="be">Беларуская</option>
+              
+                <option value="bg">Български</option>
+              
+                <option value="ca">Català</option>
+              
+                <option value="cs">Česky</option>
+              
+                <option value="cy">Cymraeg</option>
+              
+                <option value="da">Dansk</option>
+              
+                <option value="de">Deutsch</option>
+              
+                <option value="et">Eesti</option>
+              
+                <option value="el">Ελληνικά</option>
+              
+                <option value="en" selected="">English</option>
+              
+                <option value="es">Español</option>
+              
+                <option value="es-419">Español Latinoamericano</option>
+              
+                <option value="eu">Euskara</option>
+              
+                <option value="fa">فارسی</option>
+              
+                <option value="fr">Français</option>
+              
+                <option value="ga">Gaeilge</option>
+              
+                <option value="gd">Gàidhlig</option>
+              
+                <option value="gl">Galego</option>
+              
+                <option value="ko">한국어</option>
+              
+                <option value="hy">Հայերեն</option>
+              
+                <option value="he">עִבְרִית</option>
+              
+                <option value="hr">Hrvatski</option>
+              
+                <option value="xh">isiXhosa</option>
+              
+                <option value="zu">isiZulu</option>
+              
+                <option value="is">Íslenska</option>
+              
+                <option value="it">Italiano</option>
+              
+                <option value="ka">ქართული ენა</option>
+              
+                <option value="qu">Kichwa</option>
+              
+                <option value="sw">Kiswahili</option>
+              
+                <option value="ht">Kreyòl ayisyen</option>
+              
+                <option value="ku">Kurdî</option>
+              
+                <option value="ckb">کوردیی ناوەندی</option>
+              
+                <option value="lv">Latviešu</option>
+              
+                <option value="lt">Lietuvių</option>
+              
+                <option value="hu">Magyar</option>
+              
+                <option value="mi">Māori</option>
+              
+                <option value="mn">Монгол хэл</option>
+              
+                <option value="nl">Nederlands</option>
+              
+                <option value="ja">日本語</option>
+              
+                <option value="ja-Hira">にほんご</option>
+              
+                <option value="nb">Norsk Bokmål</option>
+              
+                <option value="nn">Norsk Nynorsk</option>
+              
+                <option value="or">ଓଡ଼ିଆ</option>
+              
+                <option value="uz">Oʻzbekcha</option>
+              
+                <option value="th">ไทย</option>
+              
+                <option value="km">ភាសាខ្មែរ</option>
+              
+                <option value="pl">Polski</option>
+              
+                <option value="pt">Português</option>
+              
+                <option value="pt-br">Português Brasileiro</option>
+              
+                <option value="rap">Rapa Nui</option>
+              
+                <option value="ro">Română</option>
+              
+                <option value="ru">Русский</option>
+              
+                <option value="nso">Sepedi</option>
+              
+                <option value="tn">Setswana</option>
+              
+                <option value="sk">Slovenčina</option>
+              
+                <option value="sl">Slovenščina</option>
+              
+                <option value="sr">Српски</option>
+              
+                <option value="fi">Suomi</option>
+              
+                <option value="sv">Svenska</option>
+              
+                <option value="vi">Tiếng Việt</option>
+              
+                <option value="tr">Türkçe</option>
+              
+                <option value="uk">Українська</option>
+              
+                <option value="zh-cn">简体中文</option>
+              
+                <option value="zh-tw">繁體中文</option>
+              
+              </select>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+
+    
+<!-- templates/modal-login.html block -->
+	    <div class="modal hide fade in" id="login-dialog" style="width: 450px">
+        <form method="post" action="/login/">
+          <fieldset>
+            <div class="modal-header">
+              <a href="#" data-dismiss="modal" class="close">x
+              </a>
+	      <h3>Sign in</h3>
+            </div>
+            <div class="modal-body">
+            
+              <div class="control-group">
+		      <label class="control-label" for="username">Username
+                </label>
+                <div class="controls">
+                  <input class="username" type="text" name="username" maxlength="30">
+                </div>
+              </div>
+              <div class="control-group">
+		            <label class="control-label" for="password">Password
+                </label>
+                <div class="controls">
+                  <input type="password" name="password" class="password">
+                </div>
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <span class="error">
+              </span>
+              <div class="buttons-right">
+                <button class="button primary" type="submit">Sign in</button> 
+                
+		<a data-control="registration">Or Join Scratch</a>
+                
+              </div>
+            </div>
+           
+          </fieldset>
+        </form>
+        <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+      </div>
+<!-- end templates/modal-login.html -->
+
+    
+        <div id="registration" class="registration modal hide fade" data-backdrop="static">
+          <iframe class="iframeshim" frameborder="0" scrolling="no"><html><head></head><body></body></html></iframe>
+        </div>
+    
+
+    
+    
+
+    
+    
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/js/main.js" charset="utf-8"></script>
+
+  
+  <script type="text/javascript">
+    // load gaq script
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/js/base.js" charset="utf-8"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/js/lazyload.js" charset="utf-8"></script>
+    
+<!-- templates/profiles/profile_detail.html block js -->
+
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/swfobject.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/apps/project/scratch_app.js"></script>
+<script>Scratch.profileHasFeatured = true</script>
+
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/lib/jquery.ui.widget.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/lib/blueimp-jquery-file-upload/jquery.iframe-transport.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/lib/blueimp-jquery-file-upload/jquery.fileupload.js"></script>
+<script>
+  $(document).ready(function() {
+    scratch.notifications.loadActivity($('#activity-feed'), {'friends': false, 'max': 6, 'actor': 'Windy-School'});
+  });
+    sessionStorage.setItem("explore_by", "creator")
+    sessionStorage.removeItem("gallery_id")
+</script>
+<!-- end block js -->
+
+    
+
+    
+
+
+
+<script type="text/template" id="template-collection-count">
+  <%- count %>
+</script>
+
+<script type="text/template" id="template-comment-actions">
+<% if (can_delete) { %>
+  <% if (is_staff && comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } else if (type != "gallery" || comment_user == current_user) { %>
+    <span data-control="delete" class="actions report">Delete</span>
+  <% } %>
+<% } %>
+<% if (current_user != comment_user) { %>
+  <span data-control="report" class="actions report">
+  <% if (student_of_educator) { %>
+    Delete
+  <% } else { %>
+    Report
+  <% } %></span>
+<% } %>
+</script>
+
+<script type="text/template" id="template-modal-login">
+<div class="modal hide fade in" id="login-dialog" style="width: 450px">
+  <form method="post" action="/login/">
+    <fieldset>
+      <div class="modal-header">
+        <a href="#" data-dismiss="modal" class="close">x
+        </a>
+        <h3>Login</h3>
+      </div>
+      <div class="modal-body">
+        <div class="control-group">
+        <label class="control-label" for="username">Username
+          </label>
+          <div class="controls">
+            <input id="username" type="text" name="username" maxlength="30" />
+          </div>
+        </div>
+        <div class="control-group">
+        <label class="control-label" for="password">Password
+          </label>
+          <div class="controls">
+            <input type="password" name="password" id="password" />
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <span class="error">
+        </span>
+        <span class="button primary" id="sign-in" data-control="site-login">
+        <span>{% trans "Sign in" $}
+          </span>
+        </span>
+      </div>
+    </fieldset>
+  </form>
+</div>
+</script>
+
+<script type="text/template" id="template-comment-reply">
+  <form>
+    <div class="control-group tooltip right">
+      <textarea name="content"></textarea>
+      
+      <span class="hovertext error" data-control="error" data-content="comment-error"><span class="arrow"></span><span class="text"></span></span>
+      <span class="small-text">You have <span id="chars-left-<%- comment_id %>">500</span> characters left.</span>
+    </div>
+    <div class="control-group">
+        <div class="button small" data-parent-thread="<%- thread_id %>" data-commentee-id="<%- commentee_id %>" data-control="post"><a href="#null">Post</a></div>
+        <div class="button small grey" data-control="cancel"><a href="#null">Cancel</a></div>
+      <span class="notification"></span>
+    </div>
+  </form>
+</script>
+
+<script type="text/template" id="template-deletion-canceled">
+<div class="deletion-canceled">
+  <div class="form">
+    <p>
+    Your account was scheduled for deletion but you logged in. Your account has been reactivated. If you didn’t request for your account to be deleted, you should <a href="/accounts/password_change/">change your password</a> to make sure your account is secure. 
+    </p>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="template-unsupported-browser">
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch works best on newer browsers. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">or read about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="template-unsupported-msie">
+  <div class="unsupported-browser banner" data-cue="unsupported_browser">
+    <div class="container">
+      <span>Scratch will stop supporting Internet Explorer 8 on April 30, 2015. We suggest you upgrade to <a href="/info/faq/#requirements">a supported browser</a>, <a href="/scratch2download/">download the offline editor</a>, or <a href="https://en.scratch-wiki.info/wiki/List_of_Bug_Workarounds">read about common workarounds</a>.</span>
+      <div class="close">x</div>
+    </div>
+  </div>
+</script>
+
+
+
+<script type="text/template" id="template-bio-status-content">
+  
+    <div id="bio" class="editable read">
+      <form>
+        <textarea name="bio">Main Account: @Windy-Animations
+~~~~~~~~~~~~~
+Hi, i&#39;m Tristan!
+Grade 6
+11yrs
+~~~~~~~~~~~~~
+  Creator of: 
+~~~~~~~~~~~~~
+
+- Swat Sim Games
+
+- FIFA Tutorials
+
+- HexagonOS</textarea>
+      </form>
+    </div>
+  
+</script>
+
+<script type="text/template" id="template-project-collection">
+  <% _.each(collection, function(project) { %>
+    <li>
+      <div class="project thumb" data-id="<%- project.id %>">
+        <img src="<%- project.thumbnail_url %>">
+        <span class="title">
+          <a href="/projects/<%- project.id %>"><%- project.title %></a>
+        </span>
+      </div>
+    </li>
+  <% }); %>
+</script>
+
+<script type="text/template" id="template-modal-container">
+  <div class="modal-header">
+    <span class="close" data-dismiss="modal" aria-hidden="true">×</span>
+    <h3 id="myModalLabel">My Shared Projects</h3>
+  </div>
+  <div data-content="modal-body" class="modal-body">
+    
+    <ul data-content="collection" class="media-grid projects">
+    </ul>
+    <div class="button small grey" data-control="load-more"><span>Load more</span></div>
+    
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    <button class="btn blue btn-primary" data-control="save">OK</button>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="template-report">
+  <div class="profile-report">
+      Please choose the section of this user’s profile that you feel is disrespectful, inappropriate, or has otherwise broken the <a href="/community_guidelines" target="_blank">Scratch Community Guidelines.</a> 
+    <br>
+    <p class="errors">Please select the inappropriate part of the page.</p>
+    <form class="form-horizontal" id='report_form'>
+      <input type="radio" id='radio_username' name="report_value" value="username">Username</input>
+      <br>
+      <input type="radio" id='radio_icon' name="report_value" value="icon">Icon</input>
+      <br>
+      <input type="radio" id='radio_description' name="report_value" value="description">About Me</input>
+      <br>
+      <input type="radio" id='radio_working_on' name="report_value" value="working_on">What I'm Working On</input>
+    </form>
+    <div>
+      Did this user make comments, projects, or studios that broke the Community Guidelines? Please click the “report” button on the individual comments, projects, or studios.
+    </div>
+  </div>
+</script>
+
+<script type="text/template" id="template-thanks">
+<div class="profile-report">
+  <div class="form">
+    <div>Thank you. We have received your report. The Scratch Team will review this user based on the Scratch community guidelines.
+    </div>
+  </div>
+</div>
+</script>
+
+
+
+
+
+
+
+    
+
+    <!-- load javascript translation catalog, and javascript fuzzy date library -->
+    <script type="text/javascript" src="/jsi18n/"></script>
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__/js/lib/jquery.timeago.settings.js"></script>
+
+    
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/apps/registration/main.js"></script>
+    
+
+    <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/apps/global.js"></script>
+    <script>
+      Scratch.NotificationPollTime = 300000;
+    </script>
+
+    
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/apps/userprofile/main.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/apps/userprofile/models.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/apps/userprofile/views.js"></script>
+<script src="//cdn.scratch.mit.edu/scratchr2/static/__0013507cb4feac8f99604c00dcc247bb__//js/apps/userprofile/models/user-detail.js"></script>
+
+
+    
+    <script>
+    $(document).on("accountnavready", function(e){
+        $('#topnav .messages').notificationsAlert();
+    });
+    </script>
+    
+  
+  <!-- Site Version: 3.2021.03.17.1_2021_03_18_08_20 -->
+
+<iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe></body></html>
