@@ -1,0 +1,4 @@
+CREATE TABLE yourTable(
+    id int(11) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    projectid TINYTEXT NOT NULL
+);
